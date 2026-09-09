@@ -453,6 +453,27 @@ svg { flex-shrink: 0; }
 }
 .cta-content p { color: rgba(255, 255, 255, 0.75); font-size: 1.05rem; margin-bottom: 30px; }
 
+/* ───────── DONACIONES ───────── */
+.apoya { padding: clamp(72px, 9vw, 112px) 0; background: var(--bg-white); }
+.apoya-card {
+    max-width: 620px; margin: 0 auto; text-align: center;
+    background: var(--bg);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius);
+    padding: clamp(34px, 5vw, 48px) 32px;
+    box-shadow: var(--shadow-md);
+}
+.apoya-icon {
+    width: 64px; height: 64px; margin: 0 auto 18px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 1.8rem; border-radius: 18px;
+    background: var(--primary-soft);
+}
+.apoya-card h3 { font-size: 1.15rem; font-weight: 800; margin-bottom: 10px; }
+.apoya-text { color: var(--text-body); font-size: 0.92rem; line-height: 1.8; margin-bottom: 26px; }
+.btn-flow { min-width: 260px; }
+.apoya-metodos { margin-top: 16px; font-size: 0.7rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.16em; font-weight: 700; }
+
 /* ───────── RECURSOS Y ENLACES ───────── */
 .enlaces { padding: clamp(72px, 9vw, 112px) 0; background: var(--bg-white); }
 .search-box {

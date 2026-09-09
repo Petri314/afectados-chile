@@ -161,6 +161,12 @@ document.addEventListener('DOMContentLoaded', () => {
             animation: 'zoomIn',
             delay: 0
         },
+        // Card de donaciones
+        {
+            selector: '.apoya-card',
+            animation: 'fadeUp',
+            delay: 0
+        },
         // Enlace groups
         {
             selector: '.enlace-group',
