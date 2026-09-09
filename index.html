@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Afectados Chile - No al Nuevo Orden Mundial</title>
+    <meta name="description" content="Movimiento de ciudadanos informando sobre amenazas a la libertad: geoingeniería, contaminación electromagnética, dinero digital, Agenda 2030.">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    <meta name="theme-color" content="#bc2516">
+    <meta name="color-scheme" content="light dark">
+    <meta property="og:title" content="Afectados Chile - No al Nuevo Orden Mundial">
+    <meta property="og:description" content="Movimiento ciudadano informando sobre amenazas a la libertad.">
+    <meta property="og:image" content="afectados.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="es_CL">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script>
+        // Aplica el tema oscuro antes del primer render para evitar parpadeo
+        try {
+            if (localStorage.getItem('afectados-theme') === 'dark') {
+                document.documentElement.classList.add('dark');
+            }
+        } catch (e) {}
+    </script>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="nav-logo">
+                <img src="afectados.jpg" alt="Afectados Chile" class="nav-logo-img">
+                <span class="nav-logo-text">Afectados<small>Chile</small></span>
+            </a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio" class="nav-link active">Inicio</a></li>
+                <li><a href="#causas" class="nav-link">Causas</a></li>
+                <li><a href="#enlaces" class="nav-link">Enlaces</a></li>
+                <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                <li><a href="#contacto" class="nav-link cta-link">Unirse</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Cambiar tema">
+                <svg class="icon-sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+                <svg class="icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge"><span class="badge-dot"></span>Movimiento Ciudadano · Chile</div>
+                <h1>NO AL <span class="highlight">NUEVO ORDEN MUNDIAL</span></h1>
+                <p class="hero-subtitle">Un movimiento ciudadano que nació para <strong>divulgar y denunciar</strong> las amenazas a nuestra libertad, salud y soberanía.</p>
+                <div class="hero-actions">
+                    <a href="#causas" class="btn btn-primary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
+                        Conoce las Causas
+                    </a>
+                    <a href="#enlaces" class="btn btn-secondary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+                        Recursos y Enlaces
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="afectados.jpg" alt="Afectados Chile">
+            </div>
+        </div>
+    </section>
+
+    <!-- COUNTERS -->
+    <section class="counters">
+        <div class="container">
+            <div>
+                <div class="counter-num">6</div>
+                <div class="counter-label">Causas</div>
+            </div>
+            <div>
+                <div class="counter-num">20+</div>
+                <div class="counter-label">Enlaces</div>
+            </div>
+            <div>
+                <div class="counter-num">3</div>
+                <div class="counter-label">Redes</div>
+            </div>
+            <div>
+                <div class="counter-num">1</div>
+                <div class="counter-label">Movimiento</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="about" id="nosotros">
+        <div class="container">
+            <div class="about-grid">
+                <div>
+                    <div class="about-col-label">Acerca de</div>
+                    <h2 class="about-col-title">Afectados Chile</h2>
+                    <p class="about-col-text">SOMOS un movimiento ciudadano que nació con un propósito claro: divulgar y denunciar las amenazas que enfrentamos como sociedad. Crear conciencia sobre los peligros reales que afectan nuestra libertad, salud y soberanía frente a agendas de control global.</p>
+                </div>
+                <div>
+                    <div class="about-col-label">Misión</div>
+                    <p class="about-col-text">Una ciudadanía informada, activa y unida, capaz de proteger sus derechos fundamentales. Realizamos jornadas informativas en diferentes lugares, entregamos el mensaje de forma clara y directa, y conectamos a las personas con fuentes de información confiables sobre las amenazas que enfrentamos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CAUSAS -->
+    <section class="causas" id="causas">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Nuestro Movimiento</span>
+                <h2 class="section-title">Causas que Defendemos</h2>
+                <p class="section-subtitle">Conoce las amenazas que denunciamos y por qué son importantes para tu libertad.</p>
+            </div>
+            <div class="causas-grid">
+                <div class="causa-card">
+                    <div class="causa-card-header">
+                        <div class="causa-icon-bg"><div class="causa-icon">✈️</div></div>
+                        <div class="causa-num">01</div>
+                    </div>
+                    <h3>No a la Geoingeniería</h3>
+                    <p class="causa-tagline">Chemtrails · Modificación Climática</p>
+                    <p>Denunciamos las prácticas de geoingeniería atmosférica que contaminan nuestro cielo, afectan nuestra salud y modifican artificialmente el clima.</p>
+                    <a href="https://www.geoengineeringwatch.org" target="_blank" rel="noopener" class="causa-link">Más información <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+                <div class="causa-card">
+                    <div class="causa-card-header">
+                        <div class="causa-icon-bg"><div class="causa-icon">📡</div></div>
+                        <div class="causa-num">02</div>
+                    </div>
+                    <h3>No a la Contaminación Electromagnética</h3>
+                    <p class="causa-tagline">Radiación · 5G · Salud Pública</p>
+                    <p>La sobreexposición a radiaciones electromagnéticas representa un riesgo creciente para la salud de toda la población.</p>
+                    <a href="https://www.proteccionelectromagnetica.com" target="_blank" rel="noopener" class="causa-link">Más información <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+                <div class="causa-card">
+                    <div class="causa-card-header">
+                        <div class="causa-icon-bg"><div class="causa-icon">💳</div></div>
+                        <div class="causa-num">03</div>
+                    </div>
+                    <h3>No al Dinero Digital (CBDC)</h3>
+                    <p class="causa-tagline">Identidad Digital · Crédito Social</p>
+                    <p>El dinero digital de banca central significa esclavitud financiera total: control biométrico, reconocimiento facial y crédito social.</p>
+                    <a href="https://www.salvemosdinrofisico.com" target="_blank" rel="noopener" class="causa-link">Más información <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+                <div class="causa-card">
+                    <div class="causa-card-header">
+                        <img src="logoAgenda2030.png" alt="No Agenda 2030" class="causa-logo">
+                        <div class="causa-num">04</div>
+                    </div>
+                    <h3>No a la Agenda 2030</h3>
+                    <p class="causa-tagline">Control Totalitario · Dictadura Global</p>
+                    <p>La Agenda 2030 no es sostenibilidad... ¡es control! Detrás del discurso se esconde un programa totalitario y global.</p>
+                    <a href="https://www.theral2030.org" target="_blank" rel="noopener" class="causa-link">Más información <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+                <div class="causa-card">
+                    <div class="causa-card-header">
+                        <div class="causa-icon-bg"><div class="causa-icon">📋</div></div>
+                        <div class="causa-num">05</div>
+                    </div>
+                    <h3>No al Refichaje Ilegítimo</h3>
+                    <p class="causa-tagline">Mega Fraude · Corrupción Política</p>
+                    <p>El refichaje ilegítimo es el mega fraude de la corrupción de la clase política que nadie quiere hablar.</p>
+                    <a href="https://www.incidentecritico.home.blog" target="_blank" rel="noopener" class="causa-link">Más información <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+                <div class="causa-card">
+                    <div class="causa-card-header">
+                        <div class="causa-icon-bg"><div class="causa-icon">💉</div></div>
+                        <div class="causa-num">06</div>
+                    </div>
+                    <h3>Efectos Adversos Vacunas</h3>
+                    <p class="causa-tagline">Testimonios · Evidencia · Grafeno</p>
+                    <p>Damos voz a los afectados por efectos adversos. Recopilamos testimonios y evidencia que los medios no muestran.</p>
+                    <a href="https://www.efectosadversoschile.org" target="_blank" rel="noopener" class="causa-link">Más información <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>¿Listo para ser parte del cambio?</h2>
+                <p>Únete a nuestro movimiento y ayúdanos a difundir la verdad.</p>
+                <a href="#contacto" class="btn btn-white">Contáctanos</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ENLACES -->
+    <section class="enlaces" id="enlaces">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Biblioteca</span>
+                <h2 class="section-title">Recursos y Enlaces</h2>
+                <p class="section-subtitle">Fuentes de información y canales de comunicación.</p>
+            </div>
+            <div class="search-box">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <input type="text" id="searchEnlaces" placeholder="Buscar enlace..." autocomplete="off">
+            </div>
+
+            <div id="enlacesContainer">
+                <div class="enlace-group">
+                    <h3 class="enlace-group-title"><span class="enlace-dot"></span> Geoingeniería y Chemtrails</h3>
+                    <div class="enlace-list">
+                        <a href="https://www.geoengineeringwatch.org" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Geoengineering Watch</span><span class="enlace-url">geoengineeringwatch.org</span></a>
+                        <a href="https://www.nuclearplanet.com" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Nuclear Planet</span><span class="enlace-url">nuclearplanet.com</span></a>
+                        <a href="https://www.justiciasocial.com.es" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Justicia Social</span><span class="enlace-url">justiciasocial.com.es</span></a>
+                        <a href="https://www.comunidadcieloslimpios.com.ar" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Comunidad Cielos Limpios</span><span class="enlace-url">comunidadcieloslimpios.com.ar</span></a>
+                        <a href="https://www.zerogeoengineering.com" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Zero Geoengineering</span><span class="enlace-url">zerogeoengineering.com</span></a>
+                    </div>
+                </div>
+                <div class="enlace-group">
+                    <h3 class="enlace-group-title"><span class="enlace-dot"></span> Contaminación Electromagnética</h3>
+                    <div class="enlace-list">
+                        <a href="https://www.radiaciones.wordpress.com" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Radiaciones WordPress</span><span class="enlace-url">radiaciones.wordpress.com</span></a>
+                        <a href="https://www.joancarleslopez.es" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Joan Carles López</span><span class="enlace-url">joancarleslopez.es</span></a>
+                        <a href="https://www.proteccionelectromagnetica.com" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Protección Electromagnética</span><span class="enlace-url">proteccionelectromagnetica.com</span></a>
+                        <a href="https://www.uxtr.org" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">UXTR</span><span class="enlace-url">uxtr.org</span></a>
+                        <a href="https://www.youtube.com/@cevicas" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">YouTube CEVICAS</span><span class="enlace-url">youtube.com/@cevicas</span></a>
+                    </div>
+                </div>
+                <div class="enlace-group">
+                    <h3 class="enlace-group-title"><span class="enlace-dot"></span> Dinero Digital y CBDC</h3>
+                    <div class="enlace-list">
+                        <a href="https://www.salvemosdinrofisico.com" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Salvemos el Dinero Físico</span><span class="enlace-url">salvemosdinrofisico.com</span></a>
+                    </div>
+                </div>
+                <div class="enlace-group">
+                    <h3 class="enlace-group-title"><span class="enlace-dot"></span> Agenda 2030</h3>
+                    <div class="enlace-list">
+                        <a href="https://www.theral2030.org" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Theral 2030</span><span class="enlace-url">theral2030.org</span></a>
+                        <a href="https://www.globalcenterforhumanrights.org" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Global Center for Human Rights</span><span class="enlace-url">globalcenterforhumanrights.org</span></a>
+                    </div>
+                </div>
+                <div class="enlace-group">
+                    <h3 class="enlace-group-title"><span class="enlace-dot"></span> Vacunas y Salud</h3>
+                    <div class="enlace-list">
+                        <a href="https://www.efectosadversoschile.org" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Efectos Adversos Chile</span><span class="enlace-url">efectosadversoschile.org</span></a>
+                        <a href="https://www.infovid.cl" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">InfoVid</span><span class="enlace-url">infovid.cl</span></a>
+                        <a href="https://www.laquintacolumna.info" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">La Quinta Columna</span><span class="enlace-url">laquintacolumna.info</span></a>
+                        <a href="https://www.laresistencia.live" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">La Resistencia</span><span class="enlace-url">laresistencia.live</span></a>
+                        <a href="https://www.conuvive.site" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Conuvive</span><span class="enlace-url">conuvive.site</span></a>
+                        <a href="https://www.cienciaysaludnatural.com" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Ciencia y Salud Natural</span><span class="enlace-url">cienciaysaludnatural.com</span></a>
+                        <a href="https://www.canaldireccioncorrecta.com" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Canal Dirección Correcta</span><span class="enlace-url">canaldireccioncorrecta.com</span></a>
+                    </div>
+                </div>
+                <div class="enlace-group">
+                    <h3 class="enlace-group-title"><span class="enlace-dot"></span> Movimiento Social</h3>
+                    <div class="enlace-list">
+                        <a href="https://www.accionhumanistarevolucionaria.com" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Acción Humanista Revolucionaria</span><span class="enlace-url">accionhumanistarevolucionaria.com</span></a>
+                        <a href="https://www.humanosporlaverdad.com" target="_blank" rel="noopener" class="enlace-item"><span class="enlace-name">Humanos por la Verdad</span><span class="enlace-url">humanosporlaverdad.com</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="contacto" id="contacto">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Conecta</span>
+                <h2 class="section-title">Contacto y Redes</h2>
+                <p class="section-subtitle">Síguenos en nuestras plataformas.</p>
+            </div>
+            <div class="contacto-grid">
+                <div class="contacto-card">
+                    <div class="contacto-card-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                    </div>
+                    <h3>Redes Sociales</h3>
+                    <a href="https://www.facebook.com/profile.php?id=100089893691639" target="_blank" rel="noopener" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/afectados_chile" target="_blank" rel="noopener" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://t.me/afectadoschile" target="_blank" rel="noopener" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.479.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+                        <span>Telegram</span>
+                    </a>
+                </div>
+                <div class="contacto-card">
+                    <div class="contacto-card-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                    </div>
+                    <h3>Canales de Telegram</h3>
+                    <div class="telegram-list">
+                        <div class="telegram-item"><span class="telegram-dot"></span><span>Testimonios Vacunas Chile</span></div>
+                        <div class="telegram-item"><span class="telegram-dot"></span><span>Evidencia - Liliana Zelada Rüück</span></div>
+                        <div class="telegram-item"><span class="telegram-dot"></span><span>Dani Díaz / InfoVacunas</span></div>
+                    </div>
+                </div>
+                <div class="contacto-card">
+                    <div class="contacto-card-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h3>Información Adicional</h3>
+                    <a href="https://www.incidentecritico.home.blog" target="_blank" rel="noopener" class="social-link">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+                        <span>Incidente Crítico</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none"><path d="M0,50 C360,100 1080,0 1440,50 L1440,100 L0,100 Z" fill="currentColor"/></svg>
+        </div>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo"><img src="afectados.jpg" alt="Afectados Chile" class="nav-logo-img"> AFECTADOS CHILE</div>
+                    <p class="footer-text">No al Nuevo Orden Mundial · No a la Esclavitud Digital</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="#inicio">Inicio</a>
+                    <a href="#causas">Causas</a>
+                    <a href="#enlaces">Enlaces</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#contacto">Contacto</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="footer-copy">© 2026 Afectados Chile. Todos los derechos reservados.</p>
+                <p class="footer-credit">Hecho con ❤️ para la libertad</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP -->
+    <button class="scroll-top" id="scrollTop" aria-label="Volver arriba">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
